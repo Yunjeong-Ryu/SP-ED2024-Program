@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #006400;
+}
+
+.header-nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Test Info */
+.test-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.test-info .info-item {
+    background-color: #e0f4e5;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    font-size: 18px;
+    color: #006400;
+}
+
+/* Instructions */
+.instructions {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Test Questions */
+.test-questions {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.question-block {
+    width: 100%;
+}
+
+.question-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #006400;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.question-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question-item span {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+}
+
+.question-item button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.question-item button:hover {
+    background-color: #004d00;
+}

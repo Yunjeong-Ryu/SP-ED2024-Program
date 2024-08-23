@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizontal Block Layout</title>
+    <style>
+        .container {
+            display: flex; /* Flexbox를 사용하여 블럭을 수평으로 배치 */
+            gap: 20px; /* 블럭 간의 간격 */
+            justify-content: space-between; /* 블럭을 좌우로 균등하게 배치 */
+        }
+
+        .block {
+            flex: 1; /* 블럭의 크기를 동일하게 설정 */
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block">
+            <h2>Left Block</h2>
+            <p>This is the content of the left block.</p>
+        </div>
+        <div class="block">
+            <h2>Right Block</h2>
+            <p>This is the content of the right block.</p>
+        </div>
+    </div>
+</body>
+</html>
